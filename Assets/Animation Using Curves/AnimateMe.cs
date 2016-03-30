@@ -14,6 +14,11 @@ public class AnimateMe : MonoBehaviour {
         {
             StartCoroutine(StartAnimation());
         }
+
+        if (!isAnimating && GUI.Button(new Rect(150, 0, 100, 50), "Restart"))
+        {
+            LoadingSceneManager.LoadLevel(0);
+        }
     }
 
     private IEnumerator StartAnimation()
