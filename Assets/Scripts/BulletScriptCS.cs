@@ -3,7 +3,7 @@
 
 [RequireComponent(typeof(MeshRenderer))]
 [RequireComponent(typeof(AudioSource))]
-public class BulletScript : MonoBehaviour {
+public class BulletScriptCS : MonoBehaviour {
 	
 	#region Fields
 	public LayerMask layersImpactDetection, noDecalsLayers;
